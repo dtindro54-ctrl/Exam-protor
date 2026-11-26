@@ -22,7 +22,7 @@ jobs:
           node-version: 20
       - name: Install & Build
         run: |
-          npm install
+          npm install --legacy-peer-deps
           npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -38,3 +38,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
