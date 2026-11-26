@@ -1,0 +1,6 @@
+{
+  "name": "ExamBrowser Studio",
+  "description": "Studio konfigurasi ExamBrowser Android, generator QR ujian terenkripsi (EXAMSEC), simulator keamanan perangkat, dan pembuat workflow GitHub Actions APK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
